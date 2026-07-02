@@ -1,0 +1,140 @@
+{
+    "users": [
+        {
+            "id": "u1",
+            "username": "ApexPredator",
+            "password": "password123",
+            "game": "Valorant",
+            "role": "player",
+            "skills": {
+                "MMR": 1850,
+                "win_rate": 0.62,
+                "precision": 82,
+                "positioning": 78,
+                "teamwork": 85,
+                "sportsmanship": 90,
+                "cheat_risk": 5
+            },
+            "achievements": [
+                "badge_first_win",
+                "badge_sportsman"
+            ],
+            "team_id": "t1"
+        },
+        {
+            "id": "u2",
+            "username": "ShadowSniper",
+            "password": "password123",
+            "game": "Valorant",
+            "role": "player",
+            "skills": {
+                "MMR": 1720,
+                "win_rate": 0.58,
+                "precision": 91,
+                "positioning": 65,
+                "teamwork": 72,
+                "sportsmanship": 80,
+                "cheat_risk": 15
+            },
+            "achievements": [
+                "badge_sharpshooter"
+            ],
+            "team_id": "t1"
+        },
+        {
+            "id": "u3",
+            "username": "Vortex",
+            "password": "password123",
+            "game": "League of Legends",
+            "role": "player",
+            "skills": {
+                "MMR": 1910,
+                "win_rate": 0.65,
+                "precision": 88,
+                "positioning": 84,
+                "teamwork": 90,
+                "sportsmanship": 95,
+                "cheat_risk": 2
+            },
+            "achievements": [
+                "badge_mvp"
+            ],
+            "team_id": "t2"
+        },
+        {
+            "id": "u4",
+            "username": "Cipher",
+            "password": "password123",
+            "game": "Counter Strike 2",
+            "role": "player",
+            "skills": {
+                "MMR": 1600,
+                "win_rate": 0.51,
+                "precision": 70,
+                "positioning": 72,
+                "teamwork": 82,
+                "sportsmanship": 88,
+                "cheat_risk": 8
+            },
+            "achievements": [],
+            "team_id": "t2"
+        },
+        {
+            "id": "u5",
+            "username": "TacticalSage",
+            "password": "password123",
+            "game": "Valorant",
+            "role": "coach",
+            "skills": {
+                "MMR": 2100,
+                "win_rate": 0.7,
+                "precision": 80,
+                "positioning": 95,
+                "teamwork": 98,
+                "sportsmanship": 100,
+                "cheat_risk": 0
+            },
+            "achievements": [
+                "badge_guru"
+            ],
+            "team_id": null
+        }
+    ],
+    "teams": [
+        {
+            "id": "t1",
+            "name": "Team Nova",
+            "password": "password123",
+            "captain_id": "u1",
+            "members": [
+                "u1",
+                "u2"
+            ],
+            "logo": "\u26a1",
+            "stats": {
+                "wins": 12,
+                "losses": 5
+            }
+        },
+        {
+            "id": "t2",
+            "name": "Aether Esports",
+            "password": "password123",
+            "captain_id": "u3",
+            "members": [
+                "u3",
+                "u4"
+            ],
+            "logo": "\ud83c\udf0c",
+            "stats": {
+                "wins": 15,
+                "losses": 4
+            }
+        }
+    ],
+    "tournaments": [],
+    "matches": [],
+    "chats": [],
+    "analytics": [],
+    "prizes": []
+}
